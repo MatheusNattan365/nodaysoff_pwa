@@ -1,0 +1,45 @@
+NoDaysOff
+
+    About: App com o intuito de unificar os eventos de CrossFit regionais
+
+---------/---------/---------/---------/---------/---------/---------/---------
+
+Funcionalidades:
+
+----    //usuário
+    * Cadastro de Novos Usuários;
+    * Usuário poderá se cadastrar em um ou mais eventos e receber push-notification
+    daquele evento;
+
+--------    //emBreve
+        * Encontrar Boxs próximos;
+        * Principais notícias sobre Crossfit;
+        * Solicitar cadastro de evento;
+
+----    //admin
+    * Cadastro de Games;
+
+--------    // Soon
+        * Cadastro de Boxs;
+        * Cadastro de Lojas relacionadas ao Crossfit;
+        * Principais notícias do mundo do Crossfit;
+
+
+---------/---------/---------/---------/---------/---------/---------/---------
+
+Regras de Negocios:
+    
+----TeladeGames: só poderá existir um {event = X}!
+
+Techs:
+
+    React;
+    Redux;
+    some UI framework;
+
+    firebase;
+
+    ReactNative;
+    websocket.io -> Para solicitações de cadastro de eventos;
+    push-notification;
+
